@@ -3,11 +3,12 @@
 namespace App\Http\Controllers\frontend;
 
 use Illuminate\Http\Request;
+// use App\Http\Controllers\Controller;
 
-class HomeController 
+class HomeController
 {
     public function index()
     {
-        return view("frontend.home");
+        return view('frontend.home');
     }
 }
